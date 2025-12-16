@@ -11,7 +11,10 @@
 ![UART](https://img.shields.io/badge/UART-Implemented-success)
 ![SPI](https://img.shields.io/badge/SPI-Planned-lightgrey)
 ![I2C](https://img.shields.io/badge/I2C-Planned-lightgrey)
+![APB](https://img.shields.io/badge/APB-Planned-lightgrey)
+![APB--AHB-Bridge](https://img.shields.io/badge/APB--AHB--Bridge-Planned-lightgrey)
 ![AXI--Lite](https://img.shields.io/badge/AXI--Lite-Planned-lightgrey)
+![AXI](https://img.shields.io/badge/AXI-Planned-lightgrey)
 
 
 ---
