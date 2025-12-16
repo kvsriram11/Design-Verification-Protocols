@@ -5,7 +5,6 @@
 ![Simulator](https://img.shields.io/badge/Simulator-QuestaSim-green)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-yellow)
-![CI](https://github.com/kvsriram11/Design-Verification-Protocols/actions/workflows/simulation.yml/badge.svg)
 
 ---
 
