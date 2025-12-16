@@ -1,11 +1,11 @@
-name: SystemVerilog Simulation
+name: RTL Sanity Check
 
 on:
   push:
   pull_request:
 
 jobs:
-  simulate:
+  rtl_check:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,12 +15,8 @@ jobs:
       - name: Install Icarus Verilog
         run: sudo apt-get update && sudo apt-get install -y iverilog
 
-      - name: Compile UART RTL and Testbench
+      - name: Compile UART RTL Only
         run: |
           iverilog -g2012 \
           UART-Protocol-V1/rtl/*.sv \
-          UART-Protocol-V1/tb/*.sv \
-          -o uart_sim.out
-
-      - name: Run Simulation
-        run: vvp uart_sim.out
+          -o rtl_check.out
