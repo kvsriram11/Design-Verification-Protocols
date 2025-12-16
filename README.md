@@ -8,7 +8,7 @@
 
 ## Protocol Coverage
 
-![UART](https://img.shields.io/badge/UART-Implemented-success)
+[![UART](https://img.shields.io/badge/UART-Implemented-success)](UART-Protocol-V1/)
 ![SPI](https://img.shields.io/badge/SPI-Planned-lightgrey)
 ![I2C](https://img.shields.io/badge/I2C-Planned-lightgrey)
 ![APB](https://img.shields.io/badge/APB-Planned-lightgrey)
