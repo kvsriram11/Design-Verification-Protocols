@@ -101,13 +101,82 @@ and verifies correct reception using a **self-checking scoreboard**.
 ### Successful Simulation Output (Excerpt)
 
 ```
-[GEN] Data: P (50)
-...
-[MON] Received: P (50)
-[SCB][PASS] Received P
-...
-[SCB][PASS] Received Y
-[TB] Simulation completed.
+# [GEN] Data: P (50)
+# [GEN] Data: O (4f)
+# [GEN] Data: R (52)
+# [GEN] Data: T (54)
+# [GEN] Data: L (4c)
+# [GEN] Data: A (41)
+# [GEN] Data: N (4e)
+# [GEN] Data: D (44)
+# [GEN] Data:   (20)
+# [GEN] Data: S (53)
+# [GEN] Data: T (54)
+# [GEN] Data: A (41)
+# [GEN] Data: T (54)
+# [GEN] Data: E (45)
+# [GEN] Data:   (20)
+# [GEN] Data: U (55)
+# [GEN] Data: N (4e)
+# [GEN] Data: I (49)
+# [GEN] Data: V (56)
+# [GEN] Data: E (45)
+# [GEN] Data: R (52)
+# [GEN] Data: S (53)
+# [GEN] Data: I (49)
+# [GEN] Data: T (54)
+# [GEN] Data: Y (59)
+# [MON] Received: P (50)
+# [SCB][PASS] Received P
+# [MON] Received: O (4f)
+# [SCB][PASS] Received O
+# [MON] Received: R (52)
+# [SCB][PASS] Received R
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: L (4c)
+# [SCB][PASS] Received L
+# [MON] Received: A (41)
+# [SCB][PASS] Received A
+# [MON] Received: N (4e)
+# [SCB][PASS] Received N
+# [MON] Received: D (44)
+# [SCB][PASS] Received D
+# [MON] Received:   (20)
+# [SCB][PASS] Received  
+# [MON] Received: S (53)
+# [SCB][PASS] Received S
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: A (41)
+# [SCB][PASS] Received A
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: E (45)
+# [SCB][PASS] Received E
+# [MON] Received:   (20)
+# [SCB][PASS] Received  
+# [MON] Received: U (55)
+# [SCB][PASS] Received U
+# [MON] Received: N (4e)
+# [SCB][PASS] Received N
+# [MON] Received: I (49)
+# [SCB][PASS] Received I
+# [MON] Received: V (56)
+# [SCB][PASS] Received V
+# [MON] Received: E (45)
+# [SCB][PASS] Received E
+# [MON] Received: R (52)
+# [SCB][PASS] Received R
+# [MON] Received: S (53)
+# [SCB][PASS] Received S
+# [MON] Received: I (49)
+# [SCB][PASS] Received I
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: Y (59)
+# [SCB][PASS] Received Y
+# [TB] Simulation completed.
 ```
 
 A successful run confirms **end-to-end UART communication correctness**.
