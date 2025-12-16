@@ -1,0 +1,158 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2025.2_1 win64 Jun 25 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+cd {\\thoth.cecs.pdx.edu\Home06\vkamaraj\Desktop\ECE571\ECE571f25_FinalProject\UARTWork}
+do uart1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2025.2_1 Compiler 2025.06 Jun 25 2025
+# Start time: 22:31:46 on Dec 04,2025
+# vlog -reportprogress 300 inf_uart.sv 
+# ** Note: (vlog-220) 'C:/questasim64_2025.2_1/win64/../modelsim.ini' is used as the ini file.
+# -- Compiling interface inf_uart
+# 
+# Top level modules:
+# 	--none--
+# End time: 22:31:46 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.2_1 Compiler 2025.06 Jun 25 2025
+# Start time: 22:31:47 on Dec 04,2025
+# vlog -reportprogress 300 uart_tx.sv "+acc" 
+# ** Note: (vlog-220) 'C:/questasim64_2025.2_1/win64/../modelsim.ini' is used as the ini file.
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 22:31:47 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.2_1 Compiler 2025.06 Jun 25 2025
+# Start time: 22:31:47 on Dec 04,2025
+# vlog -reportprogress 300 uart_rx.sv "+acc" 
+# ** Note: (vlog-220) 'C:/questasim64_2025.2_1/win64/../modelsim.ini' is used as the ini file.
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 22:31:47 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.2_1 Compiler 2025.06 Jun 25 2025
+# Start time: 22:31:47 on Dec 04,2025
+# vlog -reportprogress 300 uart_tb.sv "+acc" 
+# ** Note: (vlog-220) 'C:/questasim64_2025.2_1/win64/../modelsim.ini' is used as the ini file.
+# -- Compiling interface inf_uart
+# -- Compiling package uart_tb_sv_unit
+# -- Compiling module uart_instans
+# -- Compiling module tb_uart
+# 
+# Top level modules:
+# 	tb_uart
+# End time: 22:31:48 on Dec 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) 'C:/questasim64_2025.2_1/win64/../modelsim.ini' is used as the ini file.
+# vsim work.tb_uart 
+# Start time: 22:31:48 on Dec 04,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'C:/questasim64_2025.2_1/win64/../modelsim.ini' is used as the ini file.
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.uart_tb_sv_unit(fast)
+# Loading work.tb_uart(fast)
+# Loading work.inf_uart(fast__2)
+# Loading work.uart_instans(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.inf_uart(fast)
+# [GEN] Data: P (50)
+# [GEN] Data: O (4f)
+# [GEN] Data: R (52)
+# [GEN] Data: T (54)
+# [GEN] Data: L (4c)
+# [GEN] Data: A (41)
+# [GEN] Data: N (4e)
+# [GEN] Data: D (44)
+# [GEN] Data:   (20)
+# [GEN] Data: S (53)
+# [GEN] Data: T (54)
+# [GEN] Data: A (41)
+# [GEN] Data: T (54)
+# [GEN] Data: E (45)
+# [GEN] Data:   (20)
+# [GEN] Data: U (55)
+# [GEN] Data: N (4e)
+# [GEN] Data: I (49)
+# [GEN] Data: V (56)
+# [GEN] Data: E (45)
+# [GEN] Data: R (52)
+# [GEN] Data: S (53)
+# [GEN] Data: I (49)
+# [GEN] Data: T (54)
+# [GEN] Data: Y (59)
+# [MON] Received: P (50)
+# [SCB][PASS] Received P
+# [MON] Received: O (4f)
+# [SCB][PASS] Received O
+# [MON] Received: R (52)
+# [SCB][PASS] Received R
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: L (4c)
+# [SCB][PASS] Received L
+# [MON] Received: A (41)
+# [SCB][PASS] Received A
+# [MON] Received: N (4e)
+# [SCB][PASS] Received N
+# [MON] Received: D (44)
+# [SCB][PASS] Received D
+# [MON] Received:   (20)
+# [SCB][PASS] Received  
+# [MON] Received: S (53)
+# [SCB][PASS] Received S
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: A (41)
+# [SCB][PASS] Received A
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: E (45)
+# [SCB][PASS] Received E
+# [MON] Received:   (20)
+# [SCB][PASS] Received  
+# [MON] Received: U (55)
+# [SCB][PASS] Received U
+# [MON] Received: N (4e)
+# [SCB][PASS] Received N
+# [MON] Received: I (49)
+# [SCB][PASS] Received I
+# [MON] Received: V (56)
+# [SCB][PASS] Received V
+# [MON] Received: E (45)
+# [SCB][PASS] Received E
+# [MON] Received: R (52)
+# [SCB][PASS] Received R
+# [MON] Received: S (53)
+# [SCB][PASS] Received S
+# [MON] Received: I (49)
+# [SCB][PASS] Received I
+# [MON] Received: T (54)
+# [SCB][PASS] Received T
+# [MON] Received: Y (59)
+# [SCB][PASS] Received Y
+# [TB] Simulation completed.
+# ** Note: $finish    : uart_tb.sv(247)
+#    Time: 2182250 ns  Iteration: 2  Instance: /tb_uart
+# 1
+# Break in Module tb_uart at uart_tb.sv line 247
+# Printing not supported.
