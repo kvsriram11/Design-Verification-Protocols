@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository contains the **RTL design and verification of a complete UART (Universal Asynchronous Receiver Transmitter) system** implemented in **SystemVerilog**.
 The project includes both a **UART Transmitter (TX)** and **UART Receiver (RX)**, along with a **UVM-like, class-based verification environment** to validate end-to-end serial communication.
@@ -20,7 +20,7 @@ The design and verification flow follows an **industry-inspired methodology**, e
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Design an **8-bit UART Transmitter and Receiver** in SystemVerilog
 * Implement accurate **baud-rate timing** and **RX oversampling**
@@ -30,7 +30,7 @@ The design and verification flow follows an **industry-inspired methodology**, e
 
 ---
 
-## ✨ UART Features
+## UART Features
 
 * 8-bit data transmission
 * 1 start bit and 1 stop bit
@@ -42,7 +42,7 @@ The design and verification flow follows an **industry-inspired methodology**, e
 
 ---
 
-## 🧱 Design Architecture
+## Design Architecture
 
 ### UART Transmitter (`uart_tx`)
 
@@ -62,7 +62,7 @@ The design and verification flow follows an **industry-inspired methodology**, e
 
 ---
 
-## 🧪 Verification Environment
+## Verification Environment
 
 A **UVM-like verification environment** was implemented using SystemVerilog classes:
 
@@ -87,7 +87,7 @@ and verifies correct reception using a **self-checking scoreboard**.
 
 ---
 
-## ▶️ Simulation
+## Simulation
 
 **Simulation Tool:** QuestaSim
 
@@ -114,7 +114,7 @@ A successful run confirms **end-to-end UART communication correctness**.
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * Parity bit support
 * Configurable stop bits
@@ -125,7 +125,7 @@ A successful run confirms **end-to-end UART communication correctness**.
 
 ---
 
-## 📚 References
+## References
 
 * UART protocol tutorials and technical articles
 * Open-source UART RTL implementations
@@ -133,26 +133,10 @@ A successful run confirms **end-to-end UART communication correctness**.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.
 See the `LICENSE` file for details.
 
 ---
 
-### ✅ Why This README Works Well
-
-* Clear separation of **design** and **verification**
-* Badge-based quick scanning for recruiters
-* Strong technical depth without clutter
-* Industry-aligned terminology and structure
-* Easy to extend as the project grows
-
-If you want next:
-
-* A **short “For Recruiters” section**
-* A **diagram section with embedded images**
-* A **release/versioning section**
-* README alignment with your **resume bullet points**
-
-Just tell me.
