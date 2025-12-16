@@ -6,12 +6,13 @@
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-yellow)
 
-## Supported Protocols
+## Protocol Coverage
 
-![UART](https://img.shields.io/badge/Protocol-UART-blue)
-![SPI](https://img.shields.io/badge/Protocol-SPI-lightgrey)
-![I2C](https://img.shields.io/badge/Protocol-I2C-lightgrey)
-![AXI--Lite](https://img.shields.io/badge/Protocol-AXI--Lite-lightgrey)
+![UART](https://img.shields.io/badge/UART-Implemented-success)
+![SPI](https://img.shields.io/badge/SPI-Planned-lightgrey)
+![I2C](https://img.shields.io/badge/I2C-Planned-lightgrey)
+![AXI--Lite](https://img.shields.io/badge/AXI--Lite-Planned-lightgrey)
+
 
 ---
 
