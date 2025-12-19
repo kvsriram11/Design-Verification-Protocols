@@ -66,7 +66,7 @@ The first protocol implemented in this repository is **UART**, a widely used asy
 * End-to-end loopback verification
 * Constrained-random and directed test scenarios
 
-📁 **Complete implementation, timing analysis, waveforms, and verification details are available in:**
+**Complete implementation, timing analysis, waveforms, and verification details are available in:**
 👉 `UART-Protocol-V1/`
 
 ---
